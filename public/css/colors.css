@@ -1,0 +1,35 @@
+:root {
+    --vtex: #FF3366;
+  }
+
+.bg-vtex {
+  background-color: var(--vtex) !important;
+}
+.text-vtex {
+  color: var(--vtex);
+}
+.hover-vtex {
+  text-decoration: none !important;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+  color: var(--dark) !important;
+}
+
+.hover-vtex::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--vtex);
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.hover-vtex:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
