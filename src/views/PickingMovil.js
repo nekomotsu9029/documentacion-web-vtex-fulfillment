@@ -31,6 +31,7 @@ const PickingMovil = ({ language, lightBox }) => {
          <li className="sidebar-sub-header"><a href="#productos-preparados" className="sidebar-link">Productos preparados</a></li>
          <li className="sidebar-sub-header"><a href="#productos-rechazados" className="sidebar-link">Productos rechazados</a></li>
          <li className="sidebar-sub-header"><a href="#pantalla-de-chat" className="sidebar-link">Pantalla de chat</a></li>
+         <li className="sidebar-sub-header"><a href="#packing-mobile" className="sidebar-link">Packing mobile</a></li>
          <li className="sidebar-sub-header"><a href="#indicadores" className="sidebar-link">Indicadores</a></li>
          <li className="sidebar-sub-header"><a href="#mi-cuenta" className="sidebar-link">Mi cuenta</a></li>
       </ul>
@@ -53,6 +54,7 @@ const PickingMovil = ({ language, lightBox }) => {
          <li className="sidebar-sub-header"><a href="#prepared-products" className="sidebar-link">Prepared products</a></li>
          <li className="sidebar-sub-header"><a href="#rejected-products" className="sidebar-link">Rejected products</a></li>
          <li className="sidebar-sub-header"><a href="#chat-screen" className="sidebar-link">Chat screen</a></li>
+         <li className="sidebar-sub-header"><a href="#packing-mobile" className="sidebar-link">Packing mobile</a></li>
          <li className="sidebar-sub-header"><a href="#indicators" className="sidebar-link">Indicators</a></li>
          <li className="sidebar-sub-header"><a href="#my-account" className="sidebar-link">My account</a></li>
       </ul>
@@ -124,6 +126,35 @@ const PickingMovil = ({ language, lightBox }) => {
 <h2 id="pantalla-de-chat">Pantalla de chat</h2>
 <p><em>La pestaña de chat, muestra el chat en el cual se establece el contacto con soporte.</em></p>
 <p><img className="lightbox" src="/img/picking-mobile/25.png"/></p>
+<h2 id="packing-mobile">Packing mobile</h2>
+<p><em>Una vez finalizado el proceso de picking, se debe crear un nuevo empaque a travez del boton "Iniciar empacado".</em></p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/1.png"/>
+</p>
+<p><em>Una vez hecho esto, se establecerá la pantalla de packing. Aquí debemos agregar los paquetes que sean necesarios con el botón de agregar paquete, una vez hecho definimos el tamaño del paquete para finalizar.</em></p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/2.png"/>
+   <img className="lightbox" src="/img/packing-mobile/3.png"/>
+</p>
+<p>
+   <em>
+      En cada paquete podemos agregar uno o todos los productos.
+   </em>
+</p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/6.png"/>
+   <img className="lightbox" src="/img/packing-mobile/7.png"/>
+</p>
+<p>
+   <em>
+      Una vez se tengan todos los productos en un paquete, se cierran los paquetes y se confirma, finalizando asi el proceso de empaque.
+   </em>
+</p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/8.png"/>
+   <img className="lightbox" src="/img/packing-mobile/9.png"/>
+   <img className="lightbox" src="/img/packing-mobile/10.png"/>
+</p>
 <h2 id="indicadores">Indicadores</h2>
 <p><em>Esta ventana se escuentra en el menu izquierdo de la aplicacion, esta ventana nos ofrece informacion estadistica relevante relacionada al trabajo de alistamiento realizado en la aplicacion.</em></p>
 <p><img className="lightbox" src="/img/picking-mobile/29.png"/>
@@ -196,6 +227,35 @@ const PickingMovil = ({ language, lightBox }) => {
 <h2 id="chat-screen">Chat screen</h2>
 <p><em>The chat tab shows the chat in which the contact with support is established.</em></p>
 <p><img className="lightbox" src="/img/picking-mobile/25.png"/></p>
+<h2 id="packing-mobile">Packing mobile</h2>
+<p><em>Once the picking process is finished, a new package must be created through the "Start packing" button.</em></p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/1.png"/>
+</p>
+<p><em>Once this is done, the packing screen will be established. Here we must add the packages that are necessary with the add package button, once done we define the size of the package to finish.</em></p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/2.png"/>
+   <img className="lightbox" src="/img/packing-mobile/3.png"/>
+</p>
+<p>
+   <em>
+   In each package we can add one or all products.
+   </em>
+</p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/6.png"/>
+   <img className="lightbox" src="/img/packing-mobile/7.png"/>
+</p>
+<p>
+   <em>
+   Once all the products are in a package, the packages are closed and confirmed, thus ending the packaging process.
+   </em>
+</p>
+<p>
+   <img className="lightbox" src="/img/packing-mobile/8.png"/>
+   <img className="lightbox" src="/img/packing-mobile/9.png"/>
+   <img className="lightbox" src="/img/packing-mobile/10.png"/>
+</p>
 <h2 id="indicators">Indicators</h2>
 <p><em>This window is located in the left menu of the application, this window offers relevant statistical information related to the enlistment work performed in the application.</em></p>
 <p><img className="lightbox" src="/img/picking-mobile/29.png"/>

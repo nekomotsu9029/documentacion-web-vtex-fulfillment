@@ -97,7 +97,7 @@ const Settings = ({ language, lightBox }) => {
 <p><img className="lightbox" src="/img/settings/empaques1.png"/></p>
 <p><em><strong>Agregar nuevo</strong>: al hacer clic en esta opción, se abrirá un modal que contiene un formulario que sirve para la creación del nuevo paquete. Una vez que se completen los datos correspondientes, se debe hacer clic sobre el botón azul «AGREGAR» y listo.</em></p>
 <p><img className="lightbox" src="/img/settings/empaques2.png"/></p>
-<p><em>Al hacer clic en los tres puntos al lado izquierdo del paquete creado, se muestra la opción de eliminar el paquete creado.</em></p>
+<p><em>Al hacer clic en el paquete, se muestra la opción de eliminar el paquete.</em></p>
 <p><img className="lightbox" src="/img/settings/empaques3.png"/></p>
 <h2 id="env-os">Envíos</h2>
 <p><em>En esta pantalla se puede guardar un registro del envío, diligenciando los datos correspondientes.</em></p>
@@ -162,7 +162,7 @@ const Settings = ({ language, lightBox }) => {
 <p><img className="lightbox" src="/img/settings/empaques1.png"/></p>
 <p><em><strong>Add new</strong>: When you select this option, a modal window will be displayed with a new packaging form. Once you fill out the information, selecting the blue “ADD” button will complete it.</em></p>
 <p><img className="lightbox" src="/img/settings/empaques2.png"/></p>
-<p><em>When you select the three-dot icon on the right side of the created packaging, you can see the delete option for the created package type.</em></p>
+<p><em>Clicking on the package displays the option to remove the package.</em></p>
 <p><img className="lightbox" src="/img/settings/empaques3.png"/></p>
 <h2 id="shipping">Shipping</h2>
 <p><em>In this screen, you can save a shipping log by filling out the fields.</em></p>
