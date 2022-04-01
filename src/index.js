@@ -16,6 +16,7 @@ import Insights from './views/Insights.js';
 import Settings from './views/Settings.js';
 import User from './views/User.js';
 import About from './views/About.js';
+import Question from './views/Question.js';
 import Api from './views/Api.js';
 
 const App = ()=>{
@@ -101,6 +102,7 @@ const App = ()=>{
         <Route path="/settings" element={<Settings language={language} lightBox={lightBox} />} />
         <Route path="/users" element={<User language={language} lightBox={lightBox} />} />
         <Route path="/about" element={<About language={language} lightBox={lightBox} />} />
+        <Route path="/questions" element={<Question language={language} lightBox={lightBox} />} />
         <Route path="/api" element={<Api language={language} lightBox={lightBox} />} />
       </Routes>
     </Router>

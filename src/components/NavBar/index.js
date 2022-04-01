@@ -50,14 +50,15 @@ const NavBar = ({language, setLanguage, lightBox})=>{
                     Video
                 </a>
                 <Link to="/about" className="item hover-vtex menu-expand">{ language == '' ? 'Acerca de' : 'About'}</Link>
+                <Link to="/questions" className="item hover-vtex menu-expand">{ language == '' ? 'Preguntas frecuentes' : 'Frequent questions'}</Link>
                 <div className="vertical-divider menu-expand"></div>
                 <button className="item-dropdown color-dark hover-vtex menu-expand">
                 <i className="fas fa-language"></i>
-                    { language == '' ? 'Idioma' : 'Languages'}
+                    { language == '' ? 'Idioma - ES' : 'Languages - EN'}
                     <i className="fas fa-caret-down"></i>
                     <div className="menu-dropdown menu-dropdown-right">
                         <a onClick={()=>{changeLanguage('')}} className="item-dropdown hover-vtex">Español</a>
-                        <a onClick={()=>{changeLanguage('/en')}} className="item-dropdown hover-vtex">Ingles</a>
+                        <a onClick={()=>{changeLanguage('/en')}} className="item-dropdown hover-vtex">English</a>
                     </div>
                 </button>
                 <button onClick={()=>{setMenu(!menu)}} className="dropdown-menu-movil ms-auto menu-colapse"><i className="fas fa-bars"></i></button>
